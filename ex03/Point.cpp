@@ -22,10 +22,10 @@ Point::~Point(){
 
 }
 
-const Fixed Point::getX(void) const {
+const Fixed& Point::getX(void) const {
     return this->x;
 }
 
-const Fixed Point::getY(void) const {
+const Fixed& Point::getY(void) const {
     return this->y;
 }

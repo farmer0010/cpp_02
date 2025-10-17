@@ -16,8 +16,8 @@ public:
 
 	Point(const float x_val, const float y_val);
 
-	const Fixed getX(void) const;
-	const Fixed getY(void) const;
+	const Fixed& getX(void) const;
+	const Fixed& getY(void) const;
 };
 
 bool bsp( Point const &a, Point const &b, Point const &c, Point const &point);
